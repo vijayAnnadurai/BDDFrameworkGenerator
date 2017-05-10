@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * this class identifies web elements depending on their tag name and extracts their attributes
- * @author M.V.D.S.Pavan Kumar (405853)
+ * @author Vijay
  *
  */
 public class Ui_Elements_Identifier {
