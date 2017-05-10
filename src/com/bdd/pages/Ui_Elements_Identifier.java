@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * this class identifies web elements depending on their tag name and extracts their attributes
+ * This class identifies web elements depending on their tag name and extracts their attributes
  * @author Vijay
  *
  */
@@ -90,12 +90,12 @@ public class Ui_Elements_Identifier {
 		
 
 	}
-
-	public void loader()
-	{
-		/**
+                 /**
 		 * loads tag names from the properties file to a list
 		 */
+	public void loader()
+	{
+		
 		String tagNamescomb=ReadFromPropFile.getProperty("tagName");
 		if(tagNamescomb.isEmpty()){
 			System.out.println(" the property 'tagName' does not exist "+this.getClass().getName());
